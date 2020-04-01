@@ -1,5 +1,7 @@
 {
   "name": "vue-electron-typescript-element-ui",
+  "author": "Chris Kao",
+  "description": "Desktop app built with vue + electron + typescript + element-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +13,7 @@
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
   },
-  "main": "background.js",
+  "main": "./src/main/background.ts",
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
